@@ -17,13 +17,15 @@ class Solution:
 
 obj = Solution()
 
-
+# Example 1
 nums = [-1,-2,-3,-4,3,2,1]
 print(obj.arraySign(nums))
 
+# Example 2
 nums = [1,5,0,2,-3] 
 print(obj.arraySign(nums))
 
+#Example 3
 nums = [-1,1,-1,1,-1]
 print(obj.arraySign(nums))
 

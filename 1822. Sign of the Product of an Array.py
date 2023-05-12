@@ -13,7 +13,8 @@ class Solution:
             return -1
         else:
             return 0
-
+        
+#Creating Object for the class
 obj = Solution()
 
 # Example 1
@@ -30,3 +31,4 @@ print(obj.arraySign(nums))
 nums = [-1,1,-1,1,-1]
 print(obj.arraySign(nums))
 # Expected Output : -1 
+

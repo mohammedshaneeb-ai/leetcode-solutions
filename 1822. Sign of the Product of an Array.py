@@ -30,7 +30,3 @@ print(obj.arraySign(nums))
 nums = [-1,1,-1,1,-1]
 print(obj.arraySign(nums))
 # Expected Output : -1 
-
-
-
-

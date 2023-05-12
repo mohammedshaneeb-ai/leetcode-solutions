@@ -13,7 +13,6 @@ class Solution:
             return -1
         else:
             return 0
-        
 
 obj = Solution()
 
@@ -30,7 +29,8 @@ print(obj.arraySign(nums))
 #Example 3
 nums = [-1,1,-1,1,-1]
 print(obj.arraySign(nums))
-# Expected Output : -1
+# Expected Output : -1 
+
 
 
 

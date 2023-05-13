@@ -1,9 +1,8 @@
 class Solution:
-    def longestCommonPrefix(self, strs: List[str]) -> str:
+    def longestCommonPrefix(self, strs):
         if not strs:
             return ""
     
-        # Sort the array of strings to simplify the logic
         strs.sort()
         
         # Consider the first and last strings in the array

@@ -25,3 +25,5 @@ strs = ["flower","flow","flight"]
 
 print(longPrefix.longestCommonPrefix(strs))
 
+
+    

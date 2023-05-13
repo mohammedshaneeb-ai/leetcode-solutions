@@ -20,3 +20,7 @@ class Solution:
         return common_prefix
     
 longPrefix = Solution()
+
+strs = ["flower","flow","flight"]
+
+longPrefix.longestCommonPrefix(strs)

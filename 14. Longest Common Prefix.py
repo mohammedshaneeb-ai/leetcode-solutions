@@ -23,4 +23,5 @@ longPrefix = Solution()
 
 strs = ["flower","flow","flight"]
 
-longPrefix.longestCommonPrefix(strs)
+print(longPrefix.longestCommonPrefix(strs))
+

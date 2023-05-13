@@ -19,3 +19,4 @@ class Solution:
         
         return common_prefix
     
+longPrefix = Solution()

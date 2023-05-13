@@ -3,9 +3,9 @@ class Solution:
         if not strs:
             return ""
     
+        # Sort the array of strings to simplify the logic
         strs.sort()
         
-        # Consider the first and last strings in the array
         first_str, last_str = strs[0], strs[-1]
         
         # Find the common prefix between the first and last strings

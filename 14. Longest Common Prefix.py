@@ -23,7 +23,8 @@ longPrefix = Solution()
 
 strs = ["flower","flow","flight"]
 
+#Example 2
+#strs = ["dog","racecar","car"]
 print(longPrefix.longestCommonPrefix(strs))
 
 
-    

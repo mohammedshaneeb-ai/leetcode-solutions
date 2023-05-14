@@ -6,4 +6,8 @@ class Solution:
 
 obj = Solution()
 
+#Example 1
 x = 121
+
+#Example 2
+x = -121

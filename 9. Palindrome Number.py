@@ -15,5 +15,5 @@ x = 121
 #Example 2
 #x = 10
 
-obj.isPalindrome(x)
+print(obj.isPalindrome(x))
 

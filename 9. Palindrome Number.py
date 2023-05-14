@@ -3,3 +3,4 @@ class Solution:
         s = str(x)
         return s == s[::-1]
 
+

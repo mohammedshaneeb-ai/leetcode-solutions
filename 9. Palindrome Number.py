@@ -10,8 +10,10 @@ obj = Solution()
 x = 121
 
 #Example 2
-x = -121
+#x = -121
 
 #Example 2
-x = 10
+#x = 10
+
+obj.isPalindrome(x)
 

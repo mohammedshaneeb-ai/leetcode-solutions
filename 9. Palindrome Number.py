@@ -11,3 +11,7 @@ x = 121
 
 #Example 2
 x = -121
+
+#Example 2
+x = 10
+

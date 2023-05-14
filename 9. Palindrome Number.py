@@ -4,3 +4,4 @@ class Solution:
         return s == s[::-1]
 
 
+obj = Solution()

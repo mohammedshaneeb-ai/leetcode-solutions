@@ -5,3 +5,5 @@ class Solution:
 
 
 obj = Solution()
+
+x = 121

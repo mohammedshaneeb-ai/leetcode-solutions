@@ -1,5 +1,5 @@
 def average(salary):
-    sum =0
+    sum = 0
     minVal = salary[0]
     maxVal = salary[0]
     for i in range(len(salary)):

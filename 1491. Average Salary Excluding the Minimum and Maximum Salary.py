@@ -22,5 +22,4 @@ def average(salary):
 salary = [4000,3000,1000,2000]
 
 print(average(salary))
-# print(salary)
 

@@ -17,6 +17,8 @@ def average(salary):
     # Finding sum of all other numbers
     for i in salary:
         sum +=i
+    
+    #  Finding avg of the number 
     avg = sum/(len(salary))
     return avg
 

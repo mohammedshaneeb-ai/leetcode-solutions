@@ -20,6 +20,7 @@ def average(salary):
     
     #  Finding avg of the number 
     avg = sum/(len(salary))
+    # Returning the avg value
     return avg
 
 

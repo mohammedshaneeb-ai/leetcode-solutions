@@ -10,6 +10,7 @@ def average(salary):
         if salary[i] > maxVal:
             maxVal = salary[i]
     
+    # Removing min and max from the array
     salary.remove(minVal)
     salary.remove(maxVal)
 

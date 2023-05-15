@@ -27,5 +27,6 @@ def average(salary):
 
 salary = [4000,3000,1000,2000]
 
+#Calling the function
 print(average(salary))
 

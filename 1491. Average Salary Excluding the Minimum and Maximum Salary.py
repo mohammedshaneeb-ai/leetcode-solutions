@@ -14,6 +14,7 @@ def average(salary):
     salary.remove(minVal)
     salary.remove(maxVal)
 
+    # Finding sum of all other numbers
     for i in salary:
         sum +=i
     avg = sum/(len(salary))

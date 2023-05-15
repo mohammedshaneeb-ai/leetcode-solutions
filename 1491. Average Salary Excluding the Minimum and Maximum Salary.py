@@ -2,6 +2,7 @@ def average(salary):
     sum = 0
     minVal = salary[0]
     maxVal = salary[0]
+    
     for i in range(len(salary)):
         if salary[i] < minVal:
             minVal = salary[i]

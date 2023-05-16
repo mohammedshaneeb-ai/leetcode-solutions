@@ -9,7 +9,6 @@ def searchInsert(arr,target):
         for i in range(len(arr)):
                 if target < arr[i]:
                     return i
-                
         return len(arr)
                      
 

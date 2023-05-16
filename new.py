@@ -12,7 +12,13 @@ def searchInsert(arr,target):
         return len(arr)
                      
 
+# Example 1
 nums = [1,3,5,6]
 target = 7
+# Expected output 4
+
+
+
+
 
 print(searchInsert(nums,target))

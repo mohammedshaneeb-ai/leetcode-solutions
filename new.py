@@ -1,8 +1,10 @@
 def searchInsert(arr,target):
+    # checking is there is target is present
     for i in range(len(arr)):
         if arr[i] == target:
             return i
     
+    # if target is not present we are finding the position of target number
     if target not in arr:
         for i in range(len(arr)-1):
                 if target < arr[i]:

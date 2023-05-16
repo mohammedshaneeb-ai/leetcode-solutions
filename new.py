@@ -25,4 +25,10 @@ target = 2
 # Expected output 1
 
 
+# Example 3
+nums = [1,3,5,6]
+target = 5
+# Expected output 2
+
+
 print(searchInsert(nums,target))

@@ -19,6 +19,10 @@ target = 7
 
 
 
+# Example 2
+nums = [1,3,5,6]
+target = 2
+# Expected output 1
 
 
 print(searchInsert(nums,target))

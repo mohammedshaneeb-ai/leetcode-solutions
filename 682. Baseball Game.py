@@ -32,3 +32,4 @@ ops = ["1","C"]
 
 
 print(baseball.calPoints(ops))
+

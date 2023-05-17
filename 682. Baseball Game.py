@@ -7,7 +7,6 @@ class Solution:
                 
                 record.append(int(op))
             elif op == '+':
-                
                 record.append(record[-1] + record[-2])
             elif op == 'D':
                 record.append(record[-1] * 2)

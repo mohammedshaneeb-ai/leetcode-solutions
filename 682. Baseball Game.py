@@ -20,3 +20,4 @@ class Solution:
 
 
 # Example 1
+ops = ["5","-2","4","C","D","9","+","+"]

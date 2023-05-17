@@ -23,4 +23,9 @@ baseball = Solution()
 # Example 1
 ops = ["5","-2","4","C","D","9","+","+"]
 
+
+# Example 2
+ops = ["1","C"]
+
+
 print(baseball.calPoints(ops))

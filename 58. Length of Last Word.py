@@ -11,4 +11,11 @@ def lengthOfLastWord( s: str) -> int:
 
 # Example 1
 s = "a"
+# Expected Output: 1
+
+# Example 2
+s = "luffy is still joyboy"
+# Expected Output: 6
+
+
 print(lengthOfLastWord(s))

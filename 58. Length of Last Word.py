@@ -8,7 +8,6 @@ def lengthOfLastWord( s: str) -> int:
                 flag = 1
             elif s[i] == ' ' and flag == 1:
                 break
-
         return count
 
 s = "a"

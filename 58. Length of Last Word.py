@@ -23,6 +23,7 @@ s = "   fly me   to   the moon  "
 
 # Example 4
 s = "Hello World"
+# Expected Output: 5
 
 
 print(lengthOfLastWord(s))

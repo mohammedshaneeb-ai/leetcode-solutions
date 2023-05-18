@@ -9,5 +9,6 @@ def lengthOfLastWord( s: str) -> int:
                 break
         return count
 
+# Example 1
 s = "a"
 print(lengthOfLastWord(s))

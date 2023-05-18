@@ -17,7 +17,7 @@ s = "a"
 s = "luffy is still joyboy"
 # Expected Output: 6
 
-
+# Example 3
 s = "   fly me   to   the moon  "
 
 

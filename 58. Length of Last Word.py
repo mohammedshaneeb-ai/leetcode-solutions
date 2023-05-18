@@ -19,6 +19,7 @@ s = "luffy is still joyboy"
 
 # Example 3
 s = "   fly me   to   the moon  "
+# Expected Output: 4
 
 
 print(lengthOfLastWord(s))

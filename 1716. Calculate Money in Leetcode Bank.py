@@ -20,3 +20,8 @@ print(totalmoney(20))
 #Example 2
 print(totalmoney(10))
 #Expected Output: 37
+
+
+#Example 3
+print(totalmoney(4))
+#Expected Output: 10

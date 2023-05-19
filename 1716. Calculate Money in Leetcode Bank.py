@@ -16,3 +16,7 @@ print(totalmoney(20))
 #Expected Output: 96
 
 
+
+#Example 2
+print(totalmoney(10))
+#Expected Output: 37

@@ -11,6 +11,8 @@ def totalmoney(n):
     return sum
 
 
+#Example 1
 print(totalmoney(20))
+#Expected Output: 96
 
 

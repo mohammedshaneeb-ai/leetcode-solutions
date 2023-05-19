@@ -8,6 +8,7 @@ def totalmoney(n):
         if i%7 == 0:
             count +=1
             k = count
+    return sum
 
 
 print(totalmoney(20))

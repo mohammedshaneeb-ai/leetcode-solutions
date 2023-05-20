@@ -9,5 +9,4 @@ def MaxSubarray(arr):
         max = 0
     return sum
 
-
 print(MaxSubarray([-1]))

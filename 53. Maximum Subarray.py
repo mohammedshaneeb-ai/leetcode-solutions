@@ -31,3 +31,8 @@ nums = [-2,1,-3,4,-1,2,1,-5,4]
 #Example 2
 nums = [1]
 #Expected output : 1
+
+
+#Example 3
+nums = [5,4,-1,7,8]
+#Expected output : 23

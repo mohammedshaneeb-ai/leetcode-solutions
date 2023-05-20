@@ -13,7 +13,6 @@ print(MaxSubarray([-1]))
 
 #The problem of this code is time limit exceed so i implemented another code see below
 
-
 def maxSubArray(self, nums):
         max_sum = float('-inf')
         current_sum = 0

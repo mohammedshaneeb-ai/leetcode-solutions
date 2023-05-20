@@ -10,3 +10,5 @@ def MaxSubarray(arr):
     return sum
 
 print(MaxSubarray([-1]))
+
+#The problem of this code is time limit exceed so i implemented another code see below

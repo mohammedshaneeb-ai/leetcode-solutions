@@ -27,3 +27,7 @@ def maxSubArray(self, nums):
 #Example 1
 nums = [-2,1,-3,4,-1,2,1,-5,4]
 #Expected output : 6
+
+#Example 2
+nums = [1]
+#Expected output : 1

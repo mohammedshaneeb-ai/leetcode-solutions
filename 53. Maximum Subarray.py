@@ -24,3 +24,6 @@ def maxSubArray(self, nums):
         
         return max_sum
 
+#Example 1
+nums = [-2,1,-3,4,-1,2,1,-5,4]
+#Expected output : 6

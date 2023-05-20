@@ -12,3 +12,14 @@ def MaxSubarray(arr):
 print(MaxSubarray([-1]))
 
 #The problem of this code is time limit exceed so i implemented another code see below
+
+
+def maxSubArray(self, nums):
+        max_sum = float('-inf')
+        current_sum = 0
+        
+        for num in nums:
+            current_sum = max(num, current_sum + num)
+            max_sum = max(max_sum, current_sum)
+        
+        return max_sum

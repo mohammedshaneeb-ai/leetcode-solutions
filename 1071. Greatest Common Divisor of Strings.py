@@ -21,7 +21,6 @@ str1 = "ABCABC"
 str2 = "ABC"
 #Expected output: ABC
 
-
 # Example 2
 str1 = "ABABAB"
 str2 = "ABAB"
@@ -31,6 +30,7 @@ str2 = "ABAB"
 str1 = "LEET"
 str2 = "CODE"
 #Expected output: ''
+
 
 print(gcd.gcdOfStrings(str1,str2))
            

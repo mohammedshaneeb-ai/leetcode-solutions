@@ -11,10 +11,9 @@ class Solution:
                 substr = str1[0:i]
                 if substr * (len1 // i) == str1 and substr * (len2 // i) == str2:
                     result = substr
-
         return result
     
 
-    
+
 
            

@@ -13,6 +13,9 @@ class Solution:
                     result = substr
         return result
     
+gcd = Solution()
+
+#Example 1
 
 
 

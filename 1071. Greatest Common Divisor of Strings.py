@@ -22,13 +22,14 @@ str2 = "ABC"
 #Expected output: ABC
 
 # Example 2
-str1 = "ABABAB"
-str2 = "ABAB"
-#Expected output: AB
-
-# Example 2
 str1 = "LEET"
 str2 = "CODE"
+
+#Expected output: AB
+
+# Example 3
+str1 = "ABABAB"
+str2 = "ABAB"
 #Expected output: ''
 
 

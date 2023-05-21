@@ -19,7 +19,11 @@ gcd = Solution()
 
 str1 = "ABCABC" 
 str2 = "ABC"
-#Expected output
+#Expected output: ABC
 
+
+# Example 2
+str1 = "ABABAB"
+str2 = "ABAB"
 
            

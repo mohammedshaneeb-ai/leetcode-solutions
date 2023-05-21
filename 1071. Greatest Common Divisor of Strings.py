@@ -1,5 +1,5 @@
 class Solution:
-    def gcdOfStrings(self, str1: str, str2: str) -> str:
+    def gcdOfStrings(self, str1, str2):
         len1 = len(str1)
         len2 = len(str2)
         result = ""
@@ -32,5 +32,5 @@ str1 = "LEET"
 str2 = "CODE"
 #Expected output: ''
 
-
+print(gcd.gcdOfStrings(str1,str2))
            

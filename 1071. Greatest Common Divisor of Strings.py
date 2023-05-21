@@ -15,8 +15,11 @@ class Solution:
     
 gcd = Solution()
 
-#Example 1
+# Example 1
 
+str1 = "ABCABC" 
+str2 = "ABC"
+#Expected output
 
 
            

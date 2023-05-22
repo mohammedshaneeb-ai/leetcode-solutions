@@ -30,3 +30,7 @@ a = "11"
 b = "1"
 # Expected Output:100
 
+# Example 2
+a = "1010"
+b = "1011"
+# Expected Output:10101

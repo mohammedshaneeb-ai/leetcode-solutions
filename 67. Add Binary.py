@@ -14,11 +14,13 @@ class Solution:
             # Calculate the sum and carry
             digit_sum = digit_a + digit_b + carry
             carry = digit_sum // 2
-            
+
             # Append the sum digit to the result
             result.append(str(digit_sum % 2))
+
             # Move to the next digits
             i -= 1
             j -= 1
+            
         # Reverse the result and join the digits to form a string
         return ''.join(result[::-1])

@@ -36,3 +36,5 @@ b = "1011"
 # Expected Output:10101
 
 addbin = Solution()
+
+print(addbin.addBinary(a,b))

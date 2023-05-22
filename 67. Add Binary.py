@@ -14,7 +14,6 @@ class Solution:
             # Calculate the sum and carry
             digit_sum = digit_a + digit_b + carry
             carry = digit_sum // 2
-            
             # Append the sum digit to the result
             result.append(str(digit_sum % 2))
             # Move to the next digits

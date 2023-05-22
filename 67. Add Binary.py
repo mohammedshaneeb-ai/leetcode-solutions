@@ -21,6 +21,12 @@ class Solution:
             # Move to the next digits
             i -= 1
             j -= 1
-            
+
         # Reverse the result and join the digits to form a string
         return ''.join(result[::-1])
+
+# Example 1
+a = "11"
+b = "1"
+# Expected Output:100
+

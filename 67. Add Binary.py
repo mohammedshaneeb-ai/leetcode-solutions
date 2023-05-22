@@ -17,7 +17,6 @@ class Solution:
             
             # Append the sum digit to the result
             result.append(str(digit_sum % 2))
-            
             # Move to the next digits
             i -= 1
             j -= 1

@@ -10,7 +10,6 @@ class Solution:
             # Get the current digits at positions i and j
             digit_a = int(a[i]) if i >= 0 else 0
             digit_b = int(b[j]) if j >= 0 else 0
-            
             # Calculate the sum and carry
             digit_sum = digit_a + digit_b + carry
             carry = digit_sum // 2

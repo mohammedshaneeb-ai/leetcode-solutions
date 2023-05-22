@@ -34,3 +34,5 @@ b = "1"
 a = "1010"
 b = "1011"
 # Expected Output:10101
+
+addbin = Solution()

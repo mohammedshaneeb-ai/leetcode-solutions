@@ -7,7 +7,9 @@ def countNegative(grid):
     
     return count
 
+# Example 1
 grid = [[4,3,2,-1],[3,2,1,-1],[1,1,-1,-2],[-1,-1,-2,-3]]
+
 
 
 print(countNegative(grid))

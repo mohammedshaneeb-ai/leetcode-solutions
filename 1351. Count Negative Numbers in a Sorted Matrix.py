@@ -1,7 +1,7 @@
 def countNegative(grid):
     count = 0 # Initializing count as Zero
     for i in range(len(grid)): # Traversing through Rows
-        for j in range(len(grid[i])):
+        for j in range(len(grid[i])):# Traversing through Columns
             # if value less than zero we increase the count
             if grid[i][j] < 0:
                 count +=1

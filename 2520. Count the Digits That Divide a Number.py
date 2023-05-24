@@ -20,5 +20,6 @@ num = 7
 num = 121
 # Expected output: 2
 
+
 print(obj.countDigits(num))
 

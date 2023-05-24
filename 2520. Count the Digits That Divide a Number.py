@@ -9,8 +9,11 @@ class Solution:
         return count
     
 
-num = 7
 obj = Solution()
+
+# Example 1
+num = 7
+# Expected output: 1
 
 print(obj.countDigits(num))
 

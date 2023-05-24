@@ -12,4 +12,5 @@ class Solution:
 num = 7
 obj = Solution()
 
-obj.countDigits(num)
+print(obj.countDigits(num))
+

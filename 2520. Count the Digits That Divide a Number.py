@@ -15,7 +15,6 @@ obj = Solution()
 num = 7
 # Expected output: 1
 
-
 # Example 2
 num = 121
 # Expected output: 2

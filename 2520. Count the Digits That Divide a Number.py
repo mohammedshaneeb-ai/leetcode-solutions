@@ -8,5 +8,8 @@ class Solution:
                 count += 1
         return count
     
+
+num = 7
 obj = Solution()
 
+obj.countDigits(num)

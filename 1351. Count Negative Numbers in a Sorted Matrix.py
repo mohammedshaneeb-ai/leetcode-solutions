@@ -14,7 +14,6 @@ grid = [[4,3,2,-1],[3,2,1,-1],[1,1,-1,-2],[-1,-1,-2,-3]]
 # Example 2
 grid = [[3,2],[1,0]]
 # Expected Output : 0
-2520. Count the Digits That Divide a Number
 
 # Calling function
 print(countNegative(grid))

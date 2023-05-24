@@ -24,6 +24,5 @@ num = 121
 num = 1248
 # Expected output: 4
 
-
 print(obj.countDigits(num))
 

@@ -18,3 +18,5 @@ val = 3
 Output: 2
 
 obj = Solution()
+
+obj.removeElement(nums)

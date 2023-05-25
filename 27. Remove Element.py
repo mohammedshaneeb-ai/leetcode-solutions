@@ -19,4 +19,4 @@ Output: 2
 
 obj = Solution()
 
-obj.removeElement(nums)
+print(obj.removeElement(nums,val))

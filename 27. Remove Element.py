@@ -16,3 +16,5 @@ Output: 5
 nums = [3,2,2,3]
 val = 3
 Output: 2
+
+obj = Solution()

@@ -6,3 +6,9 @@ class Solution:
                 nums[i] = nums[j]
                 i += 1
         return i
+
+
+# Example 1 
+nums = [...]; # Input array
+val = ...; # Value to remove
+expectedNums = [...]; 

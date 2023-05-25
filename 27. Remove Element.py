@@ -8,12 +8,7 @@ class Solution:
         return i
 
 
-# Example 1 
-nums = [...]; # Input array
-val = ...; # Value to remove
-expectedNums = [...]; 
-
-# Example 2
+# Example 1
 nums = [0,1,2,2,3,0,4,2]
 val = 2
 Output: 5

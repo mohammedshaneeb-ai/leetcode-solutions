@@ -23,3 +23,5 @@ k = 2
 
 
 obj = Solution()
+
+obj.findKthPositive(arr,k)

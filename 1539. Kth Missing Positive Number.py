@@ -5,7 +5,6 @@ class Solution:
         while left <= right:
             mid = left + (right - left) // 2
             missing_count = arr[mid] - (mid + 1)
-
             if missing_count >= k:
                 right = mid - 1
             else:

@@ -15,3 +15,8 @@ class Solution:
 arr = [2,3,4,7,11]
 k = 5
 # Expected Output: 9
+
+# Example 2
+arr = [1,2,3,4]
+k = 2
+# Expected Output: 6

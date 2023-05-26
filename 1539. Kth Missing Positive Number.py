@@ -20,3 +20,6 @@ k = 5
 arr = [1,2,3,4]
 k = 2
 # Expected Output: 6
+
+
+obj = Solution()

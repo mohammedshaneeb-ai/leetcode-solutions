@@ -10,3 +10,8 @@ class Solution:
             else:
                 left = mid + 1
         return left + k
+
+# Example 1 
+arr = [2,3,4,7,11]
+k = 5
+# Expected Output: 9

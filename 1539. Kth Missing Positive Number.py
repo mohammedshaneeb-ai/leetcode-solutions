@@ -1,5 +1,5 @@
 class Solution:
-    def findKthPositive(self, arr: List[int], k: int) -> int:
+    def findKthPositive(self, arr,k) -> int:
         left, right = 0, len(arr) - 1
 
         while left <= right:

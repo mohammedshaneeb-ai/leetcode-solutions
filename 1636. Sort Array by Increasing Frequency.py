@@ -1,0 +1,22 @@
+from collections import Counter
+
+
+def frequencySort(nums):
+    frequency = Counter(nums)
+
+    def custom_sort(a, b):
+        if frequency[a] == frequency[b]:
+            return b - a  # Sort in decreasing order if frequencies are equal
+        return frequency[a] - frequency[b]  # Sort based on frequency
+
+    # return sorted(nums, key=lambda x: (frequency[x], -x), cmp=custom_sort)
+    return sorted(nums, key=lambda x: (frequency[x], -x))
+
+
+
+
+    
+
+
+nums = [2,3,1,3,2]
+print(frequencySort(nums))

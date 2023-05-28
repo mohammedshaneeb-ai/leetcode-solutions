@@ -1,6 +1,5 @@
 from collections import Counter
 
-
 def frequencySort(nums):
     frequency = Counter(nums)
 
@@ -8,7 +7,6 @@ def frequencySort(nums):
         if frequency[a] == frequency[b]:
             return b - a  
         return frequency[a] - frequency[b]  
-
     return sorted(nums, key=lambda x: (frequency[x], -x))
 
 

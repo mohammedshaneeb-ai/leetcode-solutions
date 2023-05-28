@@ -22,5 +22,4 @@ nums = [1,1,2,2,2,3]
 nums = [-1,1,-6,4,5,-6,1,4,1]
 # Expected output : [5,-1,4,4,-6,-6,1,1,1]
 
-
 print(frequencySort(nums))

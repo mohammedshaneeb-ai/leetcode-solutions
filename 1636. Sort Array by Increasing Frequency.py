@@ -9,7 +9,6 @@ def frequencySort(nums):
             return b - a  
         return frequency[a] - frequency[b]  
 
-    # return sorted(nums, key=lambda x: (frequency[x], -x), cmp=custom_sort)
     return sorted(nums, key=lambda x: (frequency[x], -x))
 
 

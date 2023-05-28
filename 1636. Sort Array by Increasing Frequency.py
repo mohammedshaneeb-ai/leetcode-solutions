@@ -13,10 +13,5 @@ def frequencySort(nums):
     return sorted(nums, key=lambda x: (frequency[x], -x))
 
 
-
-
-    
-
-
 nums = [2,3,1,3,2]
 print(frequencySort(nums))

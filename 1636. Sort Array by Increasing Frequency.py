@@ -14,4 +14,9 @@ def frequencySort(nums):
 # Example 1 
 nums = [2,3,1,3,2]
 # Expected output : [1,3,3,2,2]
+
+# Example 2
+nums = [1,1,2,2,2,3]
+# Expected output : [3,1,1,2,2,2]
+
 print(frequencySort(nums))

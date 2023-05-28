@@ -7,7 +7,7 @@ def frequencySort(nums):
     def custom_sort(a, b):
         if frequency[a] == frequency[b]:
             return b - a  
-        return frequency[a] - frequency[b]  # Sort based on frequency
+        return frequency[a] - frequency[b]  
 
     # return sorted(nums, key=lambda x: (frequency[x], -x), cmp=custom_sort)
     return sorted(nums, key=lambda x: (frequency[x], -x))

@@ -23,3 +23,8 @@ x = 8
 print(mySqrt(x))
 # Expected Output : 2
 
+
+# Example 3
+x = 20
+print(mySqrt(x))
+# Expected Output : 4

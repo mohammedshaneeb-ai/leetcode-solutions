@@ -12,6 +12,10 @@ def mySqrt(x):
                 left = mid + 1
 
         return right
+# Example 1
+x = 4
+print(mySqrt(x))
+# Expected Output : 2
 
-print(mySqrt(10))
+
 

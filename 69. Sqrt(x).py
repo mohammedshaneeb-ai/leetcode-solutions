@@ -18,4 +18,8 @@ print(mySqrt(x))
 # Expected Output : 2
 
 
+# Example 2
+x = 8
+print(mySqrt(x))
+# Expected Output : 2
 

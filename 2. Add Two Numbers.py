@@ -34,3 +34,8 @@ l2 = [5,6,4]
 l1 = [0]
 l2 = [0]
 # Expected Output: [0]
+
+# Example 3
+l1 = [9,9,9,9,9,9,9]
+l2 = [9,9,9,9]
+# Expected Output: [8,9,9,9,0,0,0,1]

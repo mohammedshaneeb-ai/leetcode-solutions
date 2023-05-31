@@ -4,4 +4,7 @@ class Solution:
     
 
 obj = Solution()
-    
+
+
+
+obj.arrayStringsAreEqual(word1,word2)    

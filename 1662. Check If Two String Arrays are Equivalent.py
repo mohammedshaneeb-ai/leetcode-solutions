@@ -5,6 +5,10 @@ class Solution:
 
 obj = Solution()
 
+# Example 1
+word1 = ["ab", "c"]
+word2 = ["a", "bc"]
+# Ex[ected output : true
 
 
 obj.arrayStringsAreEqual(word1,word2)    

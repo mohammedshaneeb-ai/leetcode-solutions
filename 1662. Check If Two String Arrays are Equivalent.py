@@ -10,7 +10,6 @@ word1 = ["ab", "c"]
 word2 = ["a", "bc"]
 # Ex[ected output : true
 
-
 # Example 2
 word1 = ["a", "cb"]
 word2 = ["ab", "c"]

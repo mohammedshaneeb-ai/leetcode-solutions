@@ -17,8 +17,8 @@ word2 = ["ab", "c"]
 # Ex[ected output : false
 
 # Example 3
-ord1  = ["abc", "d", "defg"]
+word1  = ["abc", "d", "defg"]
 word2 = ["abcddefg"]
 # Ex[ected output : true
 
-obj.arrayStringsAreEqual(word1,word2)    
+print(obj.arrayStringsAreEqual(word1,word2))    

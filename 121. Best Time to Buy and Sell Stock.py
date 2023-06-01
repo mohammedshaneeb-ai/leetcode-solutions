@@ -24,6 +24,7 @@ class Solution:
 
         return max_profit
 
+# Object creation
 obj = Solution()
 
 # Example 1

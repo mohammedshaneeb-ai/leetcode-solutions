@@ -12,5 +12,5 @@ class Solution:
             potential_profit = price - min_price
 
             max_profit = max(max_profit, potential_profit)
-
+            
         return max_profit

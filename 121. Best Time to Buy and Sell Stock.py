@@ -22,3 +22,8 @@ obj = Solution()
 prices = [7,1,5,3,6,4]
 # Expected output : 5
 print(obj.maxProfit(prices))
+
+# Example 2
+prices = prices = [7,6,4,3,1]
+# Expected output : 0
+print(obj.maxProfit(prices))

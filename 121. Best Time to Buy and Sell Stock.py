@@ -26,3 +26,4 @@ print(obj.maxProfit(prices))
 prices = prices = [7,6,4,3,1]
 # Expected output : 0
 print(obj.maxProfit(prices))
+

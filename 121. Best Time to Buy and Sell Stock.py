@@ -15,7 +15,6 @@ class Solution:
 
         return max_profit
 
-
 obj = Solution()
 
 # Example 1

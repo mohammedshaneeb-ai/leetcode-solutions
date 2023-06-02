@@ -5,7 +5,6 @@ class Solution:
 		index = 1 if direction == 1 else n
 	
 		remaining_seconds = time % (2 * (n - 1))
-
         if remaining_seconds <= n - 1:
 			index += direction * remaining_seconds
 		else:
@@ -14,3 +13,6 @@ class Solution:
 		if direction == -1:
 			index = n - index + 1
 		return index
+    
+
+obj = Solution()

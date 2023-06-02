@@ -26,3 +26,6 @@ time = 5
 n = 3
 time = 2
 #EXpected Output: 3
+
+
+print(obj.passThePillow(n,time))

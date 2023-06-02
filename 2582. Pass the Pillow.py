@@ -7,9 +7,10 @@ class Solution:
 		remaining_seconds = time % (2 * (n - 1))
 
         if remaining_seconds <= n - 1:
-					index += direction * remaining_seconds
-			else:
-					index += direction * (n - 1) - direction * (remaining_seconds - (n - 1))
-			
-			if direction == -1:
-					index = n - index + 1
+			index += direction * remaining_seconds
+		else:
+			index += direction * (n - 1) - direction * (remaining_seconds - (n - 1))
+		
+		if direction == -1:
+			index = n - index + 1
+		return index

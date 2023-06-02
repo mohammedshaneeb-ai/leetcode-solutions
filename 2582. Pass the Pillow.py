@@ -16,3 +16,8 @@ class Solution:
     
 
 obj = Solution()
+
+# Example 1
+n = 4
+time = 5
+#EXpected Output: 2

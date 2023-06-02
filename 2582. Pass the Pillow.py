@@ -20,7 +20,7 @@ obj = Solution()
 # Example 1
 n = 4
 time = 5
-#EXpected Output: 2
+#Expected Output: 2
 
 # Example 1
 n = 3

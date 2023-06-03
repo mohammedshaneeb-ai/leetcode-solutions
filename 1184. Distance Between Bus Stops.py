@@ -33,3 +33,10 @@ distance = [1,2,3,4]
 start = 0
 destination = 2
 # Expected Output: 3
+
+
+# Example 3
+distance = [1,2,3,4]
+start = 0
+destination = 3
+# Expected Output: 4

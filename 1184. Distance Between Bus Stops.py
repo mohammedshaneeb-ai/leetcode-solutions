@@ -8,3 +8,8 @@ Return the shortest distance between the given start and destination stops."""
 def distanceBetweenBusStops(self, distance: List[int], start: int, destination: int) -> int:
         if start == destination:
             return 0
+        
+        if start < destination:
+            clockwise_distance = sum(distance[start:destination])
+        else:
+            clockwise_distance = sum(distance[start:] + distance[:destination])

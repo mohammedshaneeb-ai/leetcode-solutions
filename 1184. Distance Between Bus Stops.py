@@ -5,7 +5,7 @@ The bus goes along both directions i.e. clockwise and counterclockwise.
 Return the shortest distance between the given start and destination stops."""
 
 
-def distanceBetweenBusStops(self, distance, start, destination) -> int:
+def distanceBetweenBusStops(distance, start, destination) -> int:
         if start == destination:
             return 0
         
@@ -40,3 +40,6 @@ distance = [1,2,3,4]
 start = 0
 destination = 3
 # Expected Output: 4
+
+
+print(distanceBetweenBusStops(distance,start,destination))

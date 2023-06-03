@@ -19,3 +19,10 @@ def distanceBetweenBusStops(self, distance, start, destination) -> int:
         return shortest_distance
 
 obj = distanceBetweenBusStops()
+
+
+# Example 1 
+distance = [1,2,3,4]
+start = 0
+destination = 1
+# Expected Output: 1

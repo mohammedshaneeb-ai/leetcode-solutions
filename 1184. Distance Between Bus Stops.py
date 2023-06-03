@@ -13,3 +13,7 @@ def distanceBetweenBusStops(self, distance, start, destination) -> int:
             clockwise_distance = sum(distance[start:destination])
         else:
             clockwise_distance = sum(distance[start:] + distance[:destination])
+
+        total_distance = sum(distance)
+        shortest_distance = min(clockwise_distance, total_distance - clockwise_distance)
+        return shortest_distance

@@ -17,3 +17,5 @@ def distanceBetweenBusStops(self, distance, start, destination) -> int:
         total_distance = sum(distance)
         shortest_distance = min(clockwise_distance, total_distance - clockwise_distance)
         return shortest_distance
+
+obj = distanceBetweenBusStops()

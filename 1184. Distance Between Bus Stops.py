@@ -5,7 +5,7 @@ The bus goes along both directions i.e. clockwise and counterclockwise.
 Return the shortest distance between the given start and destination stops."""
 
 
-def distanceBetweenBusStops(self, distance: List[int], start: int, destination: int) -> int:
+def distanceBetweenBusStops(self, distance, start, destination) -> int:
         if start == destination:
             return 0
         

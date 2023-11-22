@@ -19,7 +19,6 @@ def distanceBetweenBusStops(distance, start, destination) -> int:
         return shortest_distance
 
 
-
 # Example 1 
 distance = [1,2,3,4]
 start = 0
